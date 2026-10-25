@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-ser;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
     color: black;
     font-size: 15px;
@@ -252,8 +254,7 @@ body {
     height: 350px; 
     background-image: url('../img/carbon2.jpg'); 
     background-size: 100% 100%; 
-    background-position: center top ;
-    background-attachment: fixed;	
+    background-position: center top ; 
     background-repeat: no-repeat;
     border: none; 
     display: flex;
@@ -321,10 +322,10 @@ footer {
     background-color: #f2f2f2;     
     color: #616161;               
     padding: 35px 0;              
-    font-size: 12px;              /* taille de police */
-    line-height: 2.8;             /* interligne des <li> */
-    border: none;                 /* pas de bordure */
-    height: auto;                 /* hauteur automatique */
+    font-size: 12px;             
+    line-height: 2.8;           
+    border: none;                 
+    height: auto;                
 }
 
 
@@ -333,10 +334,10 @@ footer {
 .links-inner {
     display: grid;
     grid-template-columns: repeat(5, 1fr);  
-    gap: 10px;                              /* espace entre le
-    max-width: 1000px;                      /* largeur maximal
-    margin: 0 auto;                         /* centrage horizo
-    padding: 0 20px;                        /* padding horizon
+    gap: 10px;                              
+    max-width: 1000px;                      
+    margin: 0 auto;                        
+    padding: 0 20px;                     
 }
 
 
@@ -347,7 +348,7 @@ footer {
 }
 
 
-/* Couleur des liens */
+
 .links-inner a {
     text-decoration: none;
     color: #616161;
@@ -355,13 +356,12 @@ footer {
 }
 
 
-/* Survol des liens */
 .links-inner a:hover {
     color: #000;
 }
 
 
-/* Style des titres de colonne */
+
 .links-inner h3 {
     font-size: 14px;
     margin-bottom: 10px;
@@ -372,10 +372,10 @@ footer {
 
 
 .sub-footer {
-    background-color: #f2f2f2;     /* fond gris clair */
-    color: #616161;                /* texte gris moyen */
-    font-size: 12px;               /* taille de police */
-    padding: 20px 0;               /* espacement vertical */
+    background-color: #f2f2f2;     
+    color: #616161;                
+    font-size: 12px;              
+    padding: 20px 0;               
     border: none;                  
 }
 
@@ -441,9 +441,8 @@ footer {
 }
 
 
-/* Responsive - Moins de 700px */
 @media (max-width: 700px) {
-    /* 1. Menu principal vertical */
+    
     .main-nav {
         padding: 0;
         margin: 0;
@@ -458,19 +457,18 @@ footer {
     }
 
 
-    /* 2. Cartes en 2 colonnes */
+    
     .home-cards {
         grid-template-columns: repeat(2, 1fr);
     }
 
 
-    /* 3. Showcase : image  60% */
+  
     .showcase {
         background-size: 60%;
     }
 
 
-    /* 4. bigData-intro : masquer le paragraphe + espacement d
     #bigData-intro .content p {
         display: none;
     }
@@ -481,28 +479,15 @@ footer {
     }
 
 
-    /* 5. Section .ruban : hauteur + repositionnement image + 
-    .ruban {
-        height: 500px;
-        background-position: center center;
-    }
-
-
-    .ruban .content {
-        width: 85%;
-    }
-
-
-    /* 6. Pied de page : 2 colonnes */
     .links-inner {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 
-/* Responsive - Moins de 500px */
+
 @media (max-width: 500px) {
-    /* 1. Cartes et blocs en 1 colonne */
+   
     .home-cards {
         grid-template-columns: 1fr;
     }
@@ -513,7 +498,6 @@ footer {
     }
 
 
-    /* 2. Listes du footer : texte plus grand et espacement ve
     .links-inner ul,
     .sub-footer ul {
         font-size: 25px;
@@ -521,7 +505,6 @@ footer {
     }
 
 
-    /* 3. footer-inner en colonne alignee a gauche */
     .footer-inner {
         flex-direction: column;
         align-items: flex-start;

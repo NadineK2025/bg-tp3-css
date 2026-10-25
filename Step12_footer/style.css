@@ -237,14 +237,14 @@ body {
 }
 
 
-/*  Espacement des paragraphes */
+
 #bigData-intro .content p {
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 
-/* Section .ruban */
+
 .ruban {
     width: 100%; 
     height: 350px; 
